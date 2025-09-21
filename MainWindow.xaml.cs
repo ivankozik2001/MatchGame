@@ -49,6 +49,7 @@ namespace MatchGame
                 string nextEmoji = animalEmoji[index];
                 textBlock.Text = nextEmoji;
                 animalEmoji.RemoveAt(index);
+                animalEmoji[index] = nextEmoji;
             }
 
         }
